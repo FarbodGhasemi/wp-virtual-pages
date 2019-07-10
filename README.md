@@ -28,7 +28,8 @@ Initialize the page like below:
 
 here's an example to create a virtual login page. just place the code below into your `functions.php` file.
 
-    $loginRegisterScripts = [
+```php
+$loginRegisterScripts = [
 	    'login-js' => [
 	        'url'      => get_template_directory_uri().'/js/login.js', // path to the script
 	        'dependencies'  => ['jquery'], // scripts to be enqueued before this script
@@ -46,16 +47,17 @@ here's an example to create a virtual login page. just place the code below into
 	        'url' => 'https://www.google.com/recaptcha/api.js'
 	    ]
 	];
-	/**
-	 * Create an object of the VirtualPage Class and pass in the Parameters
-	 */
-	$loginpage = new VirtualPage('login','login.php', $loginRegisterScripts);
+/**
+ * Create an object of the VirtualPage Class and pass in the Parameters
+ */
+$loginpage = new VirtualPage('login','login.php', $loginRegisterScripts);
 
-	/**
-	 * Initialize the VirtualPage
-	 */
-	$loginpage->init();
+/**
+ * Initialize the VirtualPage
+ */
+$loginpage->init();
 
+```
 This will create a Virtual Login page you can access in this url: `YOUR_SITE_URL/login`
 
 Simple, Right? :grin:
