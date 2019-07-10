@@ -20,6 +20,10 @@ It's simple, you need to create an object of the VirtualPage class. just follow 
 
 The third parameter(scripts Array) is optional, so if you don't want to load any scripts or styles, just don't pass it in, it'll work just fine.
 
+Initialize the page like below:
+
+    $PAGE_NAME_HERE->init();
+
 #### Example
 
 here's an example to create a virtual login page. just place the code below into your `functions.php` file.
