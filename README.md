@@ -8,8 +8,9 @@ You've come to the damn right place :sunglasses:
 
 ### Installing
 
-just place the `wp-virtual-pages.php` file in the  `mu-plugins` folder.
+best practice is to just place the `wp-virtual-pages.php` file in the  `mu-plugins` folder.
 if you don't have a `mu-plugins` folder, you can create one in  the `wp-content` folder and place the file in there. ( _mu-plugins_ folder is for plugins that will be automatically activated across all of your themes. the __mu__ stands for ***Must Use***)
+but you can install the plugin from inside the dashboard or copying the folder inside the plugins folder.
 
 ### Create a Virtual Page
 
